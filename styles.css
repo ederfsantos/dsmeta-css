@@ -148,27 +148,34 @@ header {
 
 
 }
+
 .dsmeta-red-btn img {
     width: 19px;
 
 }
-.dsmeta-red-btn-container{
+
+.dsmeta-red-btn-container {
     display: flex;
     justify-content: center;
 }
+
 .show576 {
     display: none;
 }
-@media (min-width: 576px){
-    .show576{
+
+@media (min-width: 576px) {
+    .show576 {
         display: table-cell;
     }
-    .dsmeta-card{
+
+    .dsmeta-card {
         padding: 35px;
     }
-    .dsmeta-sales-table tbody tr{
+
+    .dsmeta-sales-table tbody tr {
         height: 55px;
     }
+
     .dsmeta-sales-table tbody {
         font-size: 18px;
     }
@@ -177,8 +184,9 @@ header {
 .show992 {
     display: none;
 }
-@media (min-width: 992px){
-    .show992{
+
+@media (min-width: 992px) {
+    .show992 {
         display: table-cell;
     }
 }
